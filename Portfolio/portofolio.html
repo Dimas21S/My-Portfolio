@@ -10,8 +10,16 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
   <title>Portfolio</title>
+  <style>
+    .five-cols>div {
+      width: 20%;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+  </style>
 </head>
 
 <body>
@@ -48,10 +56,8 @@
             height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
-            popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hello Everyone</h1>
+          <p class="lead">I am an Undergraduate Student in Jambi University. Major in Information System.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
@@ -61,7 +67,94 @@
     </div>
   </div>
 
+  <div class="container d-flex flex-column align-items-start px-4 py-0" style="width: 1280px; height: 608px;">
+    <section class="mb-5 w-100 px-0">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-5 g-4 justify-content-center w-100 mx-0">
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-bootstrap-fill fs-3"></i>
+            <p class="mt-2 mb-0">Bootstrap</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-filetype-html fs-3"></i>
+            <p class="mt-2 mb-0">HTML</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-filetype-css fs-3"></i>
+            <p class="mt-2 mb-0">CSS</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-filetype-js fs-3"></i>
+            <p class="mt-2 mb-0">JavaScript</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-github fs-3"></i>
+            <p class="mt-2 mb-0">GitHub</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-git fs-3"></i>
+            <p class="mt-2 mb-0">Git</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-python fs-3"></i>
+            <p class="mt-2 mb-0">Python</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-database fs-3"></i>
+            <p class="mt-2 mb-0">SQL</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-php fs-3"></i>
+            <p class="mt-2 mb-0">PHP</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="text-center border border-dark p-3 bg-light rounded">
+            <i class="bi bi-postman fs-3"></i>
+            <p class="mt-2 mb-0">Postman API</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
+
+
+  <section>
+    <div class=" container">
+      <h2 class="text-center mb-4">My Projects</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Description of project 1. This project showcases my skills in web development
+                and
+                design.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
