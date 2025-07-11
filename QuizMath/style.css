@@ -1,0 +1,37 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #0d0d0d;
+    color: #00f0ff;
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff4c99;
+    text-shadow: 2px 2px #000;
+}
+
+#random-number1,
+#random-operations,
+#random-equals,
+#random-number2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+input#random-answer {
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid #00f0ff;
+    box-shadow: 0 0 5px #00f0ff;
+}
+
+button.btn {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #ff4c99;
+}
